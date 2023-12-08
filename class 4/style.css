@@ -1,0 +1,60 @@
+/* h1, p {
+   color: red; 
+} */
+
+/* *{
+    color: brown;
+} */
+
+/* p.abc{
+    color:aqua
+}
+#xyz{
+    color: cadetblue;
+}
+
+li a{
+    color: chartreuse;
+} */
+
+/* h1~p{
+    color: blueviolet;
+} */
+
+/* div{ */
+    /* background-color: // ; */
+    /* padding: 15px; */
+/* } */
+/* h1{
+    padding: inherit;
+} */
+
+/* .one{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    
+} */
+/* .two{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(20, 36, 211, 0.902);
+    background-color: hsla(30, 74%, 50%,0.5);
+
+} */
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.one{
+    background-color: aqua;
+    width: 100%;
+    height: 20px;
+}
+.two{
+    background-color: aquamarine;
+    width: 100%;
+    height: 20px;
+}
