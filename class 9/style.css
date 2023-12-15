@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+header{
+    box-shadow: 0px 4px 8px rgb(206, 203, 203);
+    height: 60px;
+}
+header nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+header nav .nav-heading{
+    color: blue;
+    font-size: 1.8rem;
+}
+header nav .nav-item a{
+    font-size: 1.1rem;
+    padding-right: 20px;
+}
+header nav .fa-solid{
+    display:none;  
+    /* visibility: hidden; */
+    color: blue;
+    font-size: 1.5rem;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* column-gap: 45px; */
+}
+section .text{
+    width: 38%;
+}
+section .text h1{
+  font-size: 3.1rem;
+  color: blue;
+}
+section .text p{
+  font-size: 1.1rem;
+  margin: 8px;
+  color: blue;
+  letter-spacing: 2px;
+}
+section .text .btn1{
+    width: 180px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px 10px 10px 10px ;
+    border: 2px solid blue;
+    margin: 3px;
+}
+section .text .btn2{
+    width: 180px;
+    height: 30px;
+    background-color: rgb(197, 197, 199);
+    color: rgb(42, 42, 42);
+    border-radius: 10px 10px 10px 10px ;
+    border: 2px solid rgb(192, 192, 205);
+    margin: 3px;
+}
+section .image{
+    width:280px;
+    height: 430px;
+    border-radius: 10px 10px 10px 10px ;
+    box-shadow: 0px 0px 10px 2px rgb(168, 165, 165);
+}
+section .image img{
+     width: 100%; 
+     height: 100%;
+    border-radius: 10px 10px 10px 10px ;
+}
+
+@media (max-width:600px){
+    body{
+      background-color: red;
+    }
+    header{
+        width: 100%;
+    }
+    header nav .nav-item a{
+        display: none;
+    }
+    header nav .fa-solid{
+        display: flex;
+    }
+    section{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    section .text{
+        width: 350px;
+    }
+    section .text .btn1,
+    section .text .btn2{
+        width: 130px;
+    }
+    section .image{
+        width: 380px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 380px){
+    section{
+        margin-top: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    section .text{
+       width: 250px;
+    }
+    section .text h1{
+        font-size: 1.6rem;
+    }
+    section .text p{
+        font-size: .9rem;
+    }
+    section .text .btn1,
+    section .text .btn2{
+        width: 100px;
+        font-size: .6rem;
+    }
+    section .image{
+        width: 250px;
+        height: 400px;
+    }   
+}
