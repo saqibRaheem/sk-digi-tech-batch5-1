@@ -1,0 +1,10 @@
+.red{
+    color: rgb(19, 202, 38);
+}
+.carousel-item img{
+    width: 100%;
+    height: 85vh;
+}
+.about-img img{
+   width: 100%;
+}
