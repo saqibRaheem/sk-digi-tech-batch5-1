@@ -1,0 +1,47 @@
+:root{
+    --aqua:rgb(121, 121, 3);
+    --red:red;
+    --font:3rem;
+}
+
+
+
+
+
+h1{
+    color: var(--aqua);
+}
+p{
+    color: aqua;
+    font-size: var(--font);
+}
+.parent{
+    display: flex;
+    /* justify-content: space-evenly; */
+    /* align-items: baseline; */
+    height: 400px;
+    border: 2px solid black;;
+}
+
+.one{
+    flex-basis: 50%;
+    /* flex-shrink: 1; */
+    /* flex-grow: 1; */
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    order: 0;
+    align-self: center;
+   
+}
+.two{
+    
+    flex-basis: 20%;
+    /* flex-shrink: 3; */
+    /* flex-grow: 1; */
+    order: 1;
+    padding: 10px;
+    width: 300px;
+    background-color: rgb(75, 49, 49);
+    height: 50px;
+}
