@@ -1,0 +1,14 @@
+.box {
+    /* width: 200px;
+    height: 200px; */
+    /* background-color: yellow; */
+    animation: new ease forwards    ;
+    animation-duration: 1s;
+}
+@keyframes new {
+    from{
+ transform: translateY(0%);
+    }to{
+transform: translateY(100%);
+    }
+}
