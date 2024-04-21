@@ -43,12 +43,12 @@
 // }
 
 
-var city = prompt("enter your city")
+// var city = prompt("enter your city")
 
 // console.log(name1.toLocaleUpperCase());
 // console.log(name1.toLocaleLowerCase());
-var result =  city.toLocaleLowerCase();
-console.log(result);
+// var result =  city.toLocaleLowerCase();
+// console.log(result);
 
 
 // if( city.toLocaleLowerCase() === "karachi"){
@@ -56,5 +56,7 @@ console.log(result);
 // }else{
 //     console.log("not matched");
 // }
+
+
 
 
